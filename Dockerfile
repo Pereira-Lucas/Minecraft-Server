@@ -1,6 +1,6 @@
 FROM openjdk:7
 
-RUN apt-get update && apt-get upgrade
+RUN apt-get update && apt-get upgrade -y
 RUN apt-get install wget
 #RUN apt-get install software-properties-common
 
